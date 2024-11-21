@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: farsi;
+    src: url(../../fonts/YekanBakhFaNum-Heavy.eot);
+    src: url(../../fonts/YekanBakhFaNum-Heavy.ttf);
+    src: url(../../fonts/YekanBakhFaNum-Heavy.woff);
+    src: url(../../fonts/YekanBakhFaNum-Heavy.woff2);
+}
+:root{
+    --fontFamily:farsi;
+}
+.wrapper{
+    width: 100%;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    width: 40px ;
+    height: 40px ;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    font-size: 14px;
+    color: #2b2b2b;
+    font-weight: bold;
+}
+.swiper-button-prev-new:after, .swiper-rtl .swiper-button-next-new:after{
+    font-size: 14px;
+    color: #2b2b2b;
+    font-weight: bold;
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    width: 5px;
+    height: 5px;
+    background-color: #2b2b2b;
+    transition: 300ms;  
+}
+.swiper-pagination-bullet-active{
+    width: 20px !important;
+    height: 5px ;
+    border-radius: 3px;
+    background-color: whitesmoke !important;
+
+}
+ 

@@ -1,0 +1,127 @@
+.supermarket{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    .supermarket-center{
+        width: 88%;
+        height: inherit;
+        position: relative;
+        .supermarket-center-link{
+            width: 100%;
+            height: inherit;
+            background-color: #EBEEEE;
+            display: flex;
+            flex-flow: row wrap;
+            text-decoration: none;
+            position: relative;
+            border-radius: 10px;
+            .supermarket-center-link-right{
+                width: 50%;
+                height: inherit;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content:flex-start;
+                column-gap: 15px;
+                align-items: center;
+                padding-right: 30px;
+                .supermarket-center-img-1{
+                    width: 66px;
+                    height: 62px;
+                }
+                .supermarket-center-img-2{
+                    width: 250px;
+                    height: 28px;
+                }
+                .supermarket-center-discount{
+                    width: 110px;
+                    height: 30px;
+                    background-color:#029A49;
+                    text-align: center;
+                    font-family: var(--fontFamily);
+                    font-size: 14px;
+                    line-height: 35px;
+                    color:#FFFFFF;
+                    border-radius: 16px;
+
+                }
+            }
+
+        }
+        .supermarket-center-link-left{
+            width: 50%;
+            height: 110px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            flex-flow: row  wrap;
+            align-items: center;
+            .supermarket-left-link{
+                display:block;
+                width: 74px;
+                height: 74px;
+                text-decoration: none;
+                position: relative;
+                bottom: 85%;
+                top: 10;    
+                .supermarket-left-link-circle{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    display: flex;
+                    flex-flow: row;
+                    column-gap: 10px;   
+                    .discount{
+                        display: inline-block;
+                        padding: 3px;
+                        border-radius: 20px;
+                        background-color: crimson;
+                        font-family: var(--fontFamily);
+                        color: whitesmoke;
+                        position: absolute;
+                        bottom: 0;
+                    }
+                    .supermarket-left-link-circle-img1{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 50%;
+                    }
+                    
+                    .more-offer{
+                        width: 400px;
+                        height: 50px;
+                        display: flex;
+                        flex-flow: row;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: #fffafa;
+                        border-radius: 35px;
+                        margin-top: 15px;
+                        h4{
+                            width: 105px;
+                            height: 26px;
+                            display: flex;
+                            flex-flow: row wrap;
+                            align-items: center;
+                            font-family: var(--fontFamily);
+                            font-size: 13px;
+                            color: #029A49;
+                            padding-right: 20px;
+
+                        }
+                        img{
+                            width: 20px;
+                            height: 20px;
+                            display: flex;
+                            margin-left: 8px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
