@@ -7,7 +7,7 @@
   .footer-body {
     width: 100%;
     height: inherit;
-    padding: 0 20px;
+    padding: 0 5px;
     display: block;
     justify-content: center;
     .logo-button {
@@ -541,5 +541,13 @@
   cursor: pointer;
   display: flex;
   color: #19bfd3;
+  font-size: 13px;
+}
+.open{
+  font-family: var(--fontFamily);
+  cursor: pointer;
+  display: flex;
+  color: #19bfd3;
+  font-size: 13px;
   
 }
