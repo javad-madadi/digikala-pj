@@ -1,0 +1,260 @@
+.finish-products {
+  width: 100%;
+  height: 463px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .finish-products-body {
+    width: 1496px;
+    height: inherit;
+    padding: 0 10px;
+    border: 1px solid #e0e0e2;
+    border-radius: 13px;
+    .finish-products-body-top {
+      width: inherit;
+      height: 70px;
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      column-gap: 5px;
+      .top-clock {
+        width: 24px;
+        height: 24px;
+      }
+      .body-top-p {
+        font-family: var(--fontFamily);
+        font-size: 16px;
+        line-height: 34px;
+        position: relative;
+        border-bottom: 3px solid #ef394e;
+      }
+    }
+    .finish-products-body-bottom {
+      .Swiper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        .mySwiper-finish-prod{
+          width: 100%;
+          height: 386px;
+          text-align: center;
+          padding-left: 20px !important;
+          overflow: hidden;
+          position: relative;
+          list-style: none;
+          z-index: 1;
+          .swiper-wrapper {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            z-index: 1;
+            column-gap: 5px;
+            position: relative;
+            .swiper-slide {
+              width: 195px !important;
+              height: 386px;
+              border-left: 1px solid lightgrey;
+              .slide-lnk {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                background-color: white;
+                display: block;
+                border-radius: 10px;
+                position: relative;
+                text-decoration: none;
+                padding: 10px 10px;
+                .slide-lnk-body {
+                  width: 100%;
+                  height: 100%;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: stretch;
+                  margin: 0 auto;
+                  overflow: hidden;
+                  .slide-lnk-top {
+                    width: 100%;
+                    height: 100%;
+                  }
+                  .slide-topsvg {
+                    width: 100%;
+                    height: 26px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    margin-bottom: 4px;
+                    .svg {
+                      width: 120px;
+                      height: 15px;
+                      margin-left: 4px;
+                    }
+                  }
+                  .slide-bottom {
+                    width: 176px;
+                    height: 334px;
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+                    .slide-bottom-picture {
+                      width: 176px;
+                      height: 154px;
+                      .slide-bottom-picture-inside {
+                        width: 100%;
+                        height: 150px;
+                        display: flex;
+                        align-items: stretch;
+                        flex-direction: column;
+                        margin-bottom: 4px;
+                        position: relative;
+                        .picture-inside {
+                          width: 150px;
+                          height: 150px;
+                          display: flex;
+                          margin-left: 13px;
+                          margin-right: 13px;
+                          .img {
+                            width: inherit;
+                            height: inherit;
+                            display: flex;
+                            .-inside {
+                              object-fit: contain;
+                            }
+                          }
+                        }
+                      }
+                    }
+                    .slide-bottom-product-info {
+                      width: 100%;
+                      height: 180px;
+                      display: flex;
+                      flex-grow: 1;
+                      flex-direction: column;
+                      align-items: stretch;
+                      justify-content: flex-start;
+                      .name-product {
+                        width: inherit;
+                        height: 52px;
+                        .name-h {
+                          width: inherit;
+                          height: inherit;
+                          font-family: var(--fontFamily);
+                          display: -webkit-box;
+                          -webkit-box-orient: vertical;
+                          -webkit-line-clamp: 2;
+                          overflow: hidden;
+                          color: #6a7493;
+                          font-size: 0.9rem;
+                          line-height: 2;
+                          text-align: start;
+                        }
+                      }
+                      .send-product {
+                        width: inherit;
+                        height: 30px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 4px;
+                        .send-product-info {
+                          width: 75px;
+                          height: 29px;
+                          display: flex;
+                          align-items: center;
+                          .svg {
+                            width: 18px;
+                            height: 18px;
+                            display: flex;
+                            margin-left: 4px;
+                            .svi-in {
+                              width: 18px;
+                              height: 18px;
+                            }
+                          }
+                          .today {
+                            width: 52px;
+                            height: 24px;
+                            font-family: var(--fontFamily);
+                            font-size: 11px;
+                            color: #62666d;
+                            text-align: center;
+                            margin-top: 10px;
+                          }
+                        }
+                      }
+                      .product-price {
+                        width: 100%;
+                        height: 61px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: stretch;
+                        justify-content: space-between;
+                        padding-top: 4px;
+                        .price-discount {
+                          width: inherit;
+                          height: 37px;
+                          display: flex;
+                          align-items: center;
+                          .disc {
+                            width: 34px;
+                            height: 20px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: #d32f2f;
+                            border-radius: 25px;
+                            padding-left: 4px;
+                            padding-right: 4px;
+                            color: white;
+                            .dis-span {
+                              font-family: var(--fontFamily);
+                              margin: 0 auto;
+                              font-size: 12px;
+                            }
+                          }
+                          .prc {
+                            width: 143px;
+                            height: 35px;
+                            display: flex;
+                            flex-grow: 1;
+                            align-items: center;
+                            justify-content: flex-end;
+                            column-gap: 4px;
+                            color: #3f4064;
+                            font-family: var(--fontFamily);
+                            .tooman {
+                              width: 16px;
+                              height: 16px;
+                              display: flex;
+                            }
+                          }
+                        }
+                        .product-price-before {
+                          width: 176px;
+                          height: 27px;
+                          padding-left: 20px;
+                          display: flex;
+                          align-items: center;
+                          justify-content: space-between;
+                          .price-before {
+                            font-family: var(--fontFamily);
+                            margin-right: auto;
+                            font-size: 12px;
+                            align-self: flex-end;
+                            text-decoration-line: line-through;
+                            color: #c0c2c5;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

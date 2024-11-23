@@ -29,7 +29,7 @@
           height: 100%;
           display: flex;
           z-index: 1;
-          column-gap: 7px;
+          column-gap: 5px;
           position: relative;
           .swiper-slide-first {
             width: 209px;

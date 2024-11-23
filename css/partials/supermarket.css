@@ -7,15 +7,15 @@
     .supermarket-center{
         width: 88%;
         height: inherit;
-        position: relative;
+        position: absolute;
+        left: 0;
+        right: 5%; 
         .supermarket-center-link{
             width: 100%;
             height: inherit;
-            background-color: #EBEEEE;
             display: flex;
             flex-flow: row wrap;
             text-decoration: none;
-            position: relative;
             border-radius: 10px;
             .supermarket-center-link-right{
                 width: 50%;
@@ -64,9 +64,9 @@
                 width: 74px;
                 height: 74px;
                 text-decoration: none;
-                position: relative;
+                position: absolute;
                 bottom: 85%;
-                top: 10;    
+                top: 10%;    
                 .supermarket-left-link-circle{
                     width: 100%;
                     height: 100%;
