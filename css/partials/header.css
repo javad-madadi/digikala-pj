@@ -163,7 +163,7 @@
               
             }
             .activeMenu-sbmenu{
-                width: 70vw;
+                width: 85vw;
                 height: 70vh;
                 background-color: #ffff;
                 position: absolute;
@@ -172,7 +172,7 @@
                 right: 0;
                 top: 55%;
                 .activeMenu-sbmenu-categoty{
-                    width: 15%;
+                    width: 20%;
                     height: 100%;
                     background-color:white;
                     overflow: auto;
@@ -211,9 +211,9 @@
                             left: 0;
                             top: 0;
                             display: none;
-                            padding-top: 20px;
-                            padding-left: 20px;
-                            padding-right: 20px;
+                            padding-top: 15px;
+                            padding-left: 15px;
+                            padding-right: 15px;
                             overflow: auto;
                             .activeMenu-sbmenu-categoty-item-submenu-body{
                               width: 100%;
@@ -251,12 +251,12 @@
                                   display: flex;
                                   direction: rtl;
                                   .sbmenu-categoty-item-submenu-body-column1{
-                                    width: 25%;
+                                    width: 20%;
                                     height: inherit;
                                     display: flex;
                                     flex-direction: column;
                                     .column-headlink{
-                                      width: 100%;
+                                      width: auto;
                                       height: 38px;
                                       display: flex;
                                       margin-bottom: 8px;
@@ -268,6 +268,8 @@
                                       text-decoration: none;
                                       background-color: white;
                                       transition: 300ms;
+                                      font-size: 12px;
+                                      transition: 300ms;
                                       &:hover{
                                         color: crimson;
                                       }
@@ -278,10 +280,11 @@
                                         margin-left: 8px;
                                       }
                                       .tx{
-                                        width: 170px;
+                                        width: auto;
                                         height: inherit;
                                         margin-top: 20px;
                                         background-color: white;
+                                        font-size: 12px;
                                       }
                                       .svg{
                                         width: 16px;
@@ -295,7 +298,7 @@
                                       }
                                     }
                                     .column-link{
-                                      width: inherit;
+                                      width: auto;
                                       height: 35px;
                                       padding: 4px 0;
                                       position: relative;
@@ -305,13 +308,14 @@
                                       font-family: var(--fontFamily);
                                       direction: rtl;
                                       transition: 300ms;
+                                      font-size: 17px;
                                       &:hover{
                                         color: crimson;
                                       }
                                       .column-link-span{
                                         width: auto;
                                         height: inherit;
-                                        font-size: 11px;
+                                        font-size: 13px;
                                         background-color: white;
                                         display: block;
                                       }
