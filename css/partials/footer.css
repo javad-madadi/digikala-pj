@@ -528,14 +528,9 @@
     height: 80px;
   }
 }
-#show {
+#show , #hidden{
   display: none;
 }
-#hidden{
-  display: none;
-}
-
-
 .close{
   font-family: var(--fontFamily);
   cursor: pointer;
