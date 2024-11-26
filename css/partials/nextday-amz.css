@@ -1,0 +1,144 @@
+.nextday-amz {
+  width: 100%;
+  height: 110px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .nextday-amz-body {
+    width: 98%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    background-color: #f5e1e4;
+    border-radius: 16px;
+    background-image: url(../../images/svg/nextday-amz.svg),
+      linear-gradient(267.5deg, rgba(230, 18, 61, 0.1), hsla(0, 0%, 95%, 0));
+    background-repeat: no-repeat;
+    background-position: left;
+    .nexday-right-link {
+      width: 884px;
+      height: inherit;
+      display: flex;
+      align-items: center;
+      font-family: var(--fontFamily);
+      text-decoration: none;
+      .nexday-right-link-inside {
+        .svg-p {
+          position: relative;
+          width: calc(356px - 66px);
+          height: inherit;
+          margin-left: 20px;
+          .nextday-p {
+            font-size: 11px;
+            line-height: 24px;
+            padding-right: 25px;
+            color: black;
+          }
+          .nextday-timer {
+            position: absolute;
+            top: 0;
+            left: -20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 3px;
+            direction: ltr;
+            .nx-hour,
+            .nx-min,
+            .nx-sec {
+              background-color: #ffff;
+              border-radius: 8px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 28px;
+              height: 28px;
+              font-family: var(--fontFamily);
+              font-size: 15px;
+              line-height: 32px;
+            }
+            .dote {
+              font-family: var(--fontFamily);
+              font-size: 15px;
+              line-height: 32px;
+              color: black;
+            }
+          }
+        }
+      }
+    }
+    .nexday-left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .nexday-left-products {
+        width: 492px;
+        height: 74px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 8px;
+        .left-products-link {
+          width: 74px;
+          height: 74px;
+          border-radius: 50%;
+          background-color: #ffff;
+          text-decoration: none;
+          display: flex;
+          flex-flow: column nowrap;
+          .link__img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+              width: 58px !important;
+              height: 58px !important;
+              margin-top: 5px;
+              border-radius: 50%;
+            }
+          }
+          .disc-span {
+            width: 34px;
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #d32f2f;
+            font-family: var(--fontFamily);
+            font-size: 12px;
+            border-radius: 16px;
+            color: #ffff;
+          }
+        }
+        .more-pr {
+          width: 144px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          .more-pr-inside {
+            width: inherit;
+            height: inherit;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffff;
+            .more {
+              font-family: var(--fontFamily);
+              font-size: 14px;
+              color: #ef394e;
+            }
+            img {
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
