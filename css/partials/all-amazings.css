@@ -1,6 +1,8 @@
 .all-amazings {
   width: 100%;
   height: 1670px;
+  display: flex;
+  justify-content: space-between;
   #del-filter:checked ~ .bot-right {
     .three-left2 {
       display: flex;
@@ -415,7 +417,8 @@
     position: sticky !important;
     top: 120px;
     right: 0;
-    width: 270px;
+    width: 290px;
+    height: 594px;
     border-radius: 8px;
     border: 1px solid #e0e0e2;
     overflow: hidden;
@@ -783,5 +786,62 @@
   #box2-h,
   #box3-h {
     display: none;
+  }
+}
+.body-left{
+  width: 1270px;
+  height: 595px;
+  margin-top: 10px;
+  padding-right: 30px;
+  margin-top: 20px;
+  overflow-x: hidden;
+  .body-left-top{
+    width: inherit;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e2;
+    direction: rtl;
+    column-gap: 4px;
+    .top-category{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 5px;
+      width: 92px;
+
+      .topcat-sp{
+        font-family: var(--fontFamily);
+        font-size: 12px;
+        line-height: 26px;
+        color: #3f4064;
+        cursor: pointer;
+      }
+    }
+    .cat-sp{
+      width: 84px;
+      font-family: var(--fontFamily);
+      font-size: 12px;
+      color: #EF394E;
+      cursor: pointer;
+    }
+    .cat-sp-bl{
+      width: 84px;
+      font-family: var(--fontFamily);
+      font-size: 12px;
+      color: #81858B;
+      cursor: pointer;
+      text-align: center;
+    }
+    .pr{
+      font-family: var(--fontFamily);
+      font-size: 12px;
+      line-height: 26px;
+      color: #81858B;
+      width: 300px;
+      height: 26px;
+      text-align: left;
+    }
   }
 }
