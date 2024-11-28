@@ -170,7 +170,7 @@
                 z-index: 9999;
                 display: none;
                 right: 0;
-                top: 55%;
+                top: 95%;
                 .activeMenu-sbmenu-categoty{
                     width: 20%;
                     height: 100%;
@@ -327,12 +327,15 @@
                         }
                         &:hover .activeMenu-sbmenu-categoty-item-submenu{
                             display: block;
+                            
                         }
                     }
                 }
             }
             &:hover .activeMenu-sbmenu{
                 display: block;
+                
+                
             }
           }
           span {
