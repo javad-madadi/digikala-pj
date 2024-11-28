@@ -1,6 +1,6 @@
 .all-amazings {
   width: 100%;
-  height: 1670px;
+  height: 2670px;
   display: flex;
   justify-content: space-between;
   #del-filter:checked ~ .bot-right {
@@ -790,13 +790,13 @@
 }
 .body-left{
   width: 1270px;
-  height: 595px;
+  height: 100%;
   margin-top: 10px;
   padding-right: 30px;
   margin-top: 20px;
-  overflow-x: hidden;
+  overflow: hidden;
   .body-left-top{
-    width: inherit;
+    width: 100%;
     height: 50px;
     display: flex;
     justify-content: flex-start;
@@ -842,6 +842,169 @@
       width: 300px;
       height: 26px;
       text-align: left;
+    }
+  }
+  .body-left-bottom{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    .bottom-products{
+      width: 25%;
+      height: 512px;
+      padding: 12px 8px;
+      border-bottom: 1px solid #f0f0f1;
+      border-left: 1px solid #f0f0f1;
+      text-decoration: none;
+      transition: 50ms;
+      &:hover{
+        box-shadow: 0 0 25px rgb(126, 126, 126);
+      }
+      .product-pic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 240px;
+        .pic{
+          width: 240px;
+          height: 240px;
+          border-radius: 8px;
+        }
+      }
+      .pr-name{
+        margin-top: 34px;
+        font-family: var(--fontFamily);
+        font-size: 12px;
+        line-height: 26px;
+        color: #3F4064;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        height: 52px;
+      }
+      .pr-rate-status{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .right{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: var(--fontFamily);
+          font-size: 11px;
+          line-height: 26px;
+          color: #62666d;
+          column-gap: 5px;
+          .send{
+            width: 18px;
+            height: 18px;
+          }
+        }
+        .left{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          column-gap: 5px;
+          .rte{
+            font-family: var(--fontFamily);
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 26px;
+            color: rgb(63, 64, 100);
+          }
+          .str{
+            width: 16px ;
+            height: 16px;
+          }
+        }
+      }
+      .price-dsc{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .right-dis{
+          width: 34px;
+          height: 20px;
+          border-radius: 16px;
+          background-color: #d32f2f;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          span{
+            font-family: var(--fontFamily);
+            font-size: 12px;
+            line-height: 24px;
+            color: #ffff;
+          }
+        }
+        .left-pri{
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          column-gap: 4px;
+          span{
+            font-family: var(--fontFamily);
+            font-size: 16px;
+            color: #3F4064;
+          }
+          
+        }
+      }
+      .befor-prc{
+        font-family: var(--fontFamily);
+        font-size: 12px;
+        line-height: 26px;
+        color: #C0C2C5;
+        text-align: left;
+        text-decoration: line-through;
+        padding-left: 20px;
+      }
+      .seven{
+        width: 290px;
+        height: 4px;
+        background-color: #f0f0f1;
+        border-radius: 16px;
+        position: relative;
+        .cover{
+          position: absolute;
+          width: 67%;
+          height: inherit;
+          left: 0;
+          top: 0;
+          background-color: #EF394E;
+          z-index: 1;
+          border-radius: 16px;
+        }
+      }
+      .eight{ 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 30px;
+        padding-top: 4px;
+        .right-ei{
+          font-family: var(--fontFamily);
+          font-size: 10px;
+          span{
+            color: #EF394E;
+          }
+          .sold{
+            font-size: 11px;
+            line-height: 24px;
+            color: #81858B;
+          }
+        }
+        .left-time{
+          color: #EF394E;
+          font-family: var(--fontFamily);
+          font-size: 12px;
+          line-height: 26px;
+        }
+      }
     }
   }
 }
